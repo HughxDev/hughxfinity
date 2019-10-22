@@ -1,0 +1,75 @@
+#Footer {
+	margin: 0px; clear: both;
+}
+#Footer .wlp-bighorn-window-content {
+	padding: 0px;
+}
+#Header .wlp-bighorn-window-content {
+	padding: 0px;
+}
+#footerTopLink {
+	margin: 0px; padding: 8px 60px 14px 0px; text-align: right; clear: both; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.9em;
+}
+#footerTopLink a:link {
+	text-decoration: none;
+}
+#footerTopLink a:active {
+	text-decoration: none;
+}
+#footerTopLink a:hover {
+	text-decoration: underline;
+}
+.blockLiensEntete {
+	text-align: right; overflow: visible; background-color: rgb(210, 210, 210);
+}
+.inlineLien {
+	margin: 0px 0.2em 0px 0em; padding: 3px 15px; border-radius: 8px 8px 0px 0px; display: inline-block; background-color: white;
+}
+inlineLien a {
+	color: rgb(0, 98, 173); text-decoration: none; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: dotted; cursor: pointer;
+}
+.navtransversale a {
+	color: rgb(11, 84, 143);
+}
+.navtransversale {
+	font-family: Trebuchet MS,Verdana,sans-serif; font-size: 1em; font-weight: bold;
+}
+.logoam {
+	height: 83px; overflow: hidden;
+}
+.imgtetetiere_general {
+	background: url("../images/refonte/header/tetiere_regime_general.png") no-repeat 0px bottom; height: 100px; overflow: hidden; margin-bottom: 2px;
+}
+.imgtetetiere_autre {
+	background: url("../images/refonte/header/tetiere_autre_regime.png") no-repeat 0px -3px; margin: 0px auto 2px; width: 942px; height: 98px; overflow: hidden;
+}
+.txtvisuel1 {
+	margin: 0px; padding: 52px 0px 0px 15px; color: rgb(255, 255, 255); font-family: Trebuchet MS, Verdana, sans-serif; font-size: 1.5em;
+}
+.txtvisuel2 {
+	margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-family: Trebuchet MS, Verdana, sans-serif; font-size: 1.5em;
+}
+.bloc_soussousrubrique_justify {
+	margin: 1px 0px 10px; padding: 1px 0px; border: 1px solid rgb(194, 192, 169); border-image: none; width: 99%; font-size: 0.9em; float: left;
+}
+.baselinebleue {
+	margin: 0px 5px 0px 125px; padding: 5px 0px; border-radius: 10px 0px 0px; color: white; font-size: 0.85em; background-color: rgb(53, 123, 177); -webkit-border-radius: 10px 0 0 0; -moz-border-radius: 10px 0 0 0;
+}
+.baselinebleue a {
+	margin: 0px 2.9em; color: white;
+}
+#offrepreventionDiv {
+	margin: 2px 0px 0px;
+}
+.blocVide {
+	margin: 30px 0px 0px;
+}
+.txtmini {
+	font-size: 0.9em;
+}
+.boutonlien {
+	background: none; border-width: medium medium 1px; border-style: none none dotted; border-color: currentColor; border-image: none; color: rgb(0, 98, 173); text-decoration: none; cursor: pointer;
+}
+.boutonlien:hover {
+	color: rgb(0, 98, 173); text-decoration: none; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;
+}

@@ -1,0 +1,423 @@
+* {
+  outline: none;
+}
+
+body {
+  font-size: 34px;
+  background-color: rgb(32, 32, 32);
+  color: rgb(235, 235, 235);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+h1, .h1 {
+  font-size: 2em;
+  margin-top: -.16em;
+}
+
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-size: 1.25em;
+}
+
+cite {
+  font-style: normal;
+}
+
+.notice {
+  font-style: italic;
+  font-size: .9em;
+  color: #ccc;
+}
+
+.breathe {
+  margin-bottom: 34px;
+}
+
+.breathe-shallow {
+  margin-bottom: 17px;
+}
+
+.breathe-deep {
+  margin-bottom: 68px;
+}
+
+.close > [aria-hidden="true"] {
+  font-size: 2em;
+}
+
+.alert > .glyphicon {
+  margin-right: .25em;
+}
+
+.modal-header > .close {
+  color: rgb(235, 235, 235);
+  text-shadow: 0 1px 0 rgb(235, 235, 235);
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  padding: 1em;
+}
+
+.modal-header {
+  padding-bottom: 0;
+}
+
+.modal-footer {
+  padding-top: 0;
+}
+
+.modal-content {
+  background-color: #202020;
+  box-shadow: 0 5px 15px rgba(235, 235, 235, 0.5);
+}
+
+.glyphicon-pushpin {
+  margin-bottom: -.125em;
+}
+
+/*.glyphicon-info-sign {
+  margin-bottom: -0.25em;
+}*/
+
+.glyphicon-info-sign + .icon-label {
+  margin-top: -.175em;
+}
+
+.dropdown-toggle > .glyphicon {
+  margin-left: .25em;
+  margin-bottom: -.25em
+}
+
+.dropdown-menu {
+  background-color: rgb(32, 32, 32);
+  font-size: 1em;
+  box-shadow: 0 6px 12px rgba(235, 235, 235, 0.175);
+  padding-bottom: 0;
+}
+
+ol.dropdown-menu {
+  counter-reset: section;
+}
+
+ol.dropdown-menu > li > a:before {
+  counter-increment: section;
+  content: counters(section, ".") ". ";
+}
+
+ol.dropdown-menu.list-unstyled > li > a:before {
+  content: '';
+}
+
+.filters > li {
+  margin-left: .5em;
+  margin-bottom: .5em;
+}
+
+.filters > li:first-child {
+  margin-left: 0;
+}
+
+.genre-select + .ib {
+  margin-left: .25em;
+}
+
+.listing,
+.list-inline > .listing {
+  width: 22%;
+  vertical-align: top;
+  margin: 0 15px 15px;
+}
+
+.listing__title {
+  display: block;
+  font-size: 1.25em;
+  margin: .5em 0 .25em;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.listing__attributes {
+  margin-top: -.125em;
+}
+
+.listing__link {
+  display: block;
+  line-height: 1;
+}
+
+.season-episode > div {
+  display: inline-block;
+}
+
+.episode-title:before {
+  content: "“";
+}
+
+.episode-title:after {
+  content: "”";
+}
+
+.res-1080 {
+  /* Safe zone: https://developers.google.com/tv/web/docs/design_for_tv#activities */
+  width: 1728px; /* 1920 */
+  max-width: 1728px;
+  min-height: 972px; /* 1080 */
+  height: auto;
+  margin: 54px auto; /* (1080 - 972) / 2 */
+}
+
+.res-720 {
+  /* https://developers.google.com/tv/web/docs/design_for_tv#activities */
+  width: 1152px; /* 1280 */
+  height: 648px; /* 720 */
+  margin: 34px auto; /* (720 - 648) / 2 */
+}
+
+.btn {
+  border: none;
+  color: rgb(32, 32, 32);
+  padding: 0.1em .75em .25em;
+}
+
+.btn,
+.progress-bar {
+  background-color: #007eff;
+}
+
+.progress,
+.list-inline {
+  margin-bottom: 0;
+}
+
+.progress-label {
+  font-size: .85em;
+}
+
+.actions {
+  margin-top: .3em;
+}
+
+/*.progress-bar {
+  background-color: #f3d03e;
+}*/
+
+.btn {
+  font-size: inherit;
+}
+
+.btn,
+.dropdown-menu {
+  border-radius: .3em;
+}
+
+.dropdown-menu > li:first-child > a {
+  border-top-right-radius: .3em;
+  border-top-left-radius: .3em;
+}
+
+.dropdown-menu > li:last-child > a {
+  border-bottom-right-radius: .3em;
+  border-bottom-left-radius: .3em;
+}
+
+.dropdown-menu > li > a {
+  color: rgb(235, 235, 235);
+  padding: .25em .75em;
+}
+
+.progress--dropdown-menu {
+  margin: .25em 0;
+}
+
+.dropdown-menu > li > a[aria-selected="true"] {
+  color: rgb(32, 32, 32);
+}
+
+.dropdown-menu > li > a[aria-disabled="true"] {
+  color: #666;
+  cursor: not-allowed;
+}
+
+.dropdown-menu > li > a[aria-disabled="true"]:hover,
+.dropdown-menu > li > a[aria-disabled="true"]:focus,
+.dropdown-menu > li > a[aria-selected="true"][aria-disabled="true"] {
+  color: rgb(32, 32, 32);
+  background-color: #666;
+}
+
+.dropdown-menu--detached {
+  position: static;
+  box-shadow: none;
+  border-radius: 0;
+  width: 100%;
+}
+
+.dropdown-menu--detached > li > a {
+  /*padding: .25em .75em;*/
+  padding: .5em .75em;
+  margin: .25em 0;
+  background-color: #333;
+}
+
+.dropdown-menu--detached > li:first-child > a {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.dropdown-menu--detached > li:last-child > a {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  font-weight: normal;
+/*  display: inline-block;
+  width: 21.55em;*/
+}
+
+/*.logo {
+  margin-bottom: 0;
+  margin-right: .25em;
+}*/
+
+/*.logo,
+.nav-primary {
+  display: inline-block;
+  vertical-align: middle;
+}*/
+
+.list-inline > li {
+  vertical-align: middle;
+}
+
+.nav-primary > .list-inline > li {
+  margin-left: 1em;
+}
+
+.nav-primary > .list-inline > li:first-child {
+  margin-left: 0;
+}
+
+.attribute-icon {
+  height: 38px;
+  display: block;
+}
+
+.attributes > dd,
+[role="checkbox"],
+[role="checkbox"] + span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.attributes > .price + dd:after,
+.attributes > .runtime + dd:after {
+  content: ' • ';
+}
+
+.attributes > dd:last-child:after {
+  content: '';
+}
+
+.attributes > .closed-captions + dd,
+.attributes > .audio + dd {
+  margin-right: .25em;
+}
+
+abbr[title] {
+  border-bottom: none;
+}
+
+.glyphicon,
+.icon-label,
+.ib {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.release-date {
+  font-weight: normal;
+  font-size: .75em;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.disabled,
+.disabled:hover,
+.disabled:focus {
+  color: #ccc;
+}
+
+.btn:hover,
+.btn:focus,
+.btn[aria-expanded="true"],
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+[aria-selected="true"] {
+  background-color: #f3d03e;
+}
+
+a:hover,
+a:focus,
+.here > a {
+  color: #f3d03e;
+}
+
+.branding {
+  margin: 0;
+  color: rgb(235, 235, 235);
+}
+
+.branding > .logo-label {
+  color: transparent;
+}
+
+.branding:hover > span {
+  color: #007eff;
+}
+
+.branding:hover > .logo-label {
+  color: inherit;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.dl-multiline > dt,
+.dl-multiline > dd {
+  display: inline;
+}
+
+.dl-multiline > dd:after {
+  content: '\A';
+  white-space: pre;
+}

@@ -1,0 +1,324 @@
+.wlp-bighorn-menu-menu-panel ul li ul li a {
+	padding-right: 50px;
+}
+.wlp-bighorn-menu-menu-panel ul li a {
+	padding: 0px 26px;
+}
+.r_acc_bloc h1 {
+	font-size: 1.25em;
+}
+.wlp-bighorn-menu ul ul a {
+	font-size: 12.8px;
+}
+.r_acc_bloc .bloc_sousrubrique li a {
+	font-size: 12.8px;
+}
+.r_msg_texte_accueil h1 {
+	font-size: 12.8px;
+}
+.r_msg_texte_accueil a {
+	font-size: 12.8px;
+}
+.logdate {
+	font-size: 12.8px;
+}
+.sousRubrique .lienService {
+	font-size: 12.1px;
+}
+.baselinebleue {
+	font-size: 11.8px;
+}
+.blocform .r_label_violet {
+	width: 100px;
+}
+.r_label {
+	margin: 0px; padding: 10px 0px 0px; color: black; font-weight: normal;
+}
+.r_acc_bloc .bloc_sousrubrique .lienAccueilSitemap {
+	font-size: 12.1px;
+}
+.taille475 {
+	width: 475px;
+}
+.taille400 {
+	width: 400px;
+}
+.blocCriterePaie {
+	padding: 25px 80px 20px 60px; clear: both;
+}
+.r_champ_moitie {
+	width: 48%;
+}
+.r_champ_right {
+	padding-top: 10px;
+}
+#as_messagerie_book .wlp-bighorn-titlebar {
+	width: 100%;
+}
+.tab-box td.montant {
+	text-align: right; padding-right: 70px;
+}
+.blocformfond {
+	background: rgb(238, 245, 249); margin: 20px 1px 10px; padding: 5px 5px 20px; border: 0px solid lightblue; border-image: none; line-height: 1.5em; clear: both;
+}
+#as_declarer_naissance_page .blocformfond {
+	background: rgb(238, 245, 249); margin: 20px 1px 10px; padding: 5px 5px 20px; border: 0px solid lightblue; border-image: none; line-height: 1.5em; clear: both;
+}
+#as_declarer_activite_page .blocformfond {
+	background: rgb(238, 245, 249); margin: 20px 1px 10px; padding: 5px 5px 20px; border: 0px solid lightblue; border-image: none; line-height: 1.5em; clear: both;
+}
+.blocformfond .consigne {
+	color: rgb(7, 87, 172); padding-right: 15px; font-family: Trebuchet MS, Verdana, sans-serif; font-size: 0.8em; white-space: normal;
+}
+.blocformfond h2 {
+	color: rgb(0, 98, 173); margin-left: 20px; float: left;
+}
+.blocform label {
+	text-align: right;
+}
+.blocform .label {
+	text-align: right;
+}
+.blocform .r_label {
+	width: 170px;
+}
+.blocformfond fieldset {
+	background: white; margin: 10px 20px 5px; padding: 0px 25px 5px; border-radius: 10px; border: 1px solid lightblue; border-image: none;
+}
+.blocformfond fieldset legend {
+	color: rgb(0, 98, 173); padding-right: 10px; padding-left: 10px; font-size: 1.2em; display: none; position: relative;
+}
+.bloc_coord {
+	margin: 10px 20px 20px; padding-left: 24px;
+}
+.blocformfond .bloc_infos {
+	background: rgb(238, 245, 249); margin: 10px 20px 5px; padding: 0px 25px 5px; border-radius: 0px 0px 10px 10px; border: 1px solid rgb(187, 218, 246); border-image: none; line-height: 1.5em; clear: both;
+}
+.bloc_infos_perso .bloc_infos {
+	background: rgb(238, 245, 249); margin: 10px 20px 5px; padding: 0px 25px 5px; border-radius: 0px 0px 10px 10px; border: 1px solid rgb(187, 218, 246); border-image: none; line-height: 1.5em; clear: both;
+}
+.grid {
+	width: 100%; padding-bottom: 10px; display: table; table-layout: auto;
+}
+.row {
+	display: table-row;
+}
+label.cell {
+	display: table-cell; white-space: nowrap;
+}
+span.cell {
+	width: 100%; display: table-cell;
+}
+span.cell input {
+	width: 100%;
+}
+span.cell select {
+	width: 100%;
+}
+.tdQuestSatiLeft50 {
+	width: 50%; text-align: center;
+}
+.tdQuestSatiLeft80 {
+	width: 50%;
+}
+.tdQuestSatiLeft20 {
+	width: 20%; text-align: left;
+}
+.tdQuestSatiRight20 {
+	width: 20%; text-align: left;
+}
+.tab_form {
+	padding-top: 5px; padding-bottom: 5px; margin-top: 10px; margin-bottom: 10px;
+}
+#as_accueil_page .wlp-bighorn-layout {
+	float: none;
+}
+#as_accueil_page .colonne_info_droite_accueil {
+	padding: 10px 0px; border-radius: 10px 10px 0px 0px; width: 190px; right: 1%; clear: right; margin-top: -23%; margin-bottom: 39px; float: right; position: relative; -webkit-border-radius: 10px 10px 0 0; -moz-border-radius: 10px 10px 0 0;
+}
+.r_acc_colonne_droite {
+	width: 188px; margin-bottom: 10px; margin-left: 21px; float: right; -ms-word-wrap: break-word;
+}
+.r_acc_colonne_center {
+	width: 320px; float: left;
+}
+.r_acc_bloc_infos {
+	border-radius: 15px; border: 2px solid rgb(53, 123, 177); border-image: none; width: 186px; margin-bottom: 15px; background-color: white; -webkit-border-radius: 10px; -moz-border-radius: 10px;
+}
+.r_acc_bloc_infos p {
+	margin: auto; width: 170px; -ms-word-break: keep-all;
+}
+.r_acc_bloc_infos p .adresse {
+	
+}
+.r_acc_bloc_infos .nom {
+	width: 100%; text-align: center; color: rgb(0, 98, 173); font-size: 1.15em; font-variant: small-caps; font-weight: bold; margin-top: 0.8em; margin-bottom: 10px;
+}
+.r_acc_bloc_infos .acces {
+	margin: 10px auto 15px; width: 170px; text-align: center;
+}
+.r_acc_bloc_infos a {
+	color: rgb(0, 98, 173); text-decoration: none;
+}
+.r_acc_bloc_infos a:hover {
+	text-decoration: none;
+}
+.r_acc_bloc_infos .email {
+	color: rgb(200, 66, 148);
+}
+.r_acc_bloc_infos .line {
+	margin-top: 10px; margin-bottom: 10px; border-top-color: rgb(0, 98, 173); border-top-width: 1px; border-top-style: solid;
+}
+.r_acc_bloc_infos .dern_connex {
+	margin: auto; width: 160px; padding-bottom: 10px; padding-left: 30px;
+}
+.bouton_deco {
+	margin: 0px 0.2em 0px 0em; padding: 3px 15px; border-radius: 8px 8px 0px 0px; display: inline-block; background-color: rgb(200, 66, 148);
+}
+.bouton_deco a {
+	color: white; text-decoration: none; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: dotted; cursor: pointer;
+}
+.baselinebleue a {
+	margin: 0px 1.7em;
+}
+#as_info_perso_page .r_pre_bloc div#bloc_masituation a {
+	border: 0px currentColor; border-image: none;
+}
+#as_info_perso_page .r_pre_bloc div#bloc_macam a {
+	border: 0px currentColor; border-image: none;
+}
+#as_info_perso_page .r_pre_bloc div#bloc_macomplsante a {
+	border: 0px currentColor; border-image: none;
+}
+#as_info_perso_page .r_pre_bloc div#bloc_mescoord a {
+	border: 0px currentColor; border-image: none;
+}
+#as_info_perso_page .r_pre_bloc div#bloc_codes_acces a {
+	border: 0px currentColor; border-image: none;
+}
+#as_info_perso_page .r_pre_bloc div#bloc_infos_bancaires a {
+	border: 0px currentColor; border-image: none;
+}
+.r_pre_bloc .flechePlierDeplier {
+	height: 1.5em; margin-top: -2px; margin-right: 8px; float: left; position: relative; z-index: 2;
+}
+.bloc_infos_perso .r_pre_bloc h2 {
+	height: 20px; padding-top: 5px;
+}
+.bloc_infos_perso ul li {
+	margin: 20px 10px; font-size: 18px; font-weight: normal; list-style-type: none; cursor: default;
+}
+.bloc_infos_perso .fleche_plie {
+	width: 20px; height: 20px;
+}
+.bloc_infos_perso ul li a.plie {
+	border-radius: 10px;
+}
+.bloc_infos_perso ul li a.deplie {
+	border-radius: 10px 10px 0px 0px;
+}
+.bloc_infos_perso .bloc_deplie {
+	display: block;
+}
+.bloc_deplie {
+	display: block;
+}
+.bloc_infos_perso .bloc_plie {
+	display: none;
+}
+.bloc_plie {
+	display: none;
+}
+.bloc_infos_perso #bloc_contenu_infos_bancaires .tab-footer {
+	background-color: rgb(238, 245, 249);
+}
+.bloc_infos_perso .r_pre_bloc h2.impair {
+	min-height: 20px; background-color: rgb(53, 123, 177);
+}
+.bleu_clair h2.plie#bloc_titre_infos_ALD a {
+	color: rgb(53, 123, 177); min-height: 20px; background-color: rgb(187, 218, 246);
+}
+.bleu_clair h2 {
+	color: rgb(53, 123, 177); min-height: 20px; background-color: rgb(187, 218, 246);
+}
+.coord_autorisations {
+	padding-left: 10px;
+}
+.coord_autorisations img {
+	width: 25px; vertical-align: middle;
+}
+.bloc_infos_perso .content {
+	background: white; padding: 20px; border-radius: 0px 0px 10px 10px; border: 1px solid lightblue; border-image: none;
+}
+.bloc_infos_perso .content h2 {
+	font-size: 12.8px;
+}
+.bloc_infos_perso .content ul li {
+	font-size: 12.8px;
+}
+.bloc_infos_perso .content p {
+	font-size: 12.8px;
+}
+h2#bloc_titre_infos_ALD a {
+	color: white;
+}
+.bloc_infos_perso .r_pre_bloc .content ul li a.r_btaide {
+	color: white;
+}
+.bloc_infos_perso .r_pre_bloc .content ul li a {
+	color: rgb(198, 100, 159);
+}
+.bloc_infos_perso .content ul li {
+	margin: 5px; list-style-type: disc;
+}
+.bloc_infos_perso .content ul li ul.sous_liste li {
+	list-style-type: square;
+}
+.dim_submit {
+	padding: 6px 20px;
+}
+.bloc_confirm {
+	margin-bottom: 10px;
+}
+.info_legal {
+	font-size: 11px; font-style: italic;
+}
+#as_releve_annuel_prestation_page .impair {
+	line-height: 1.5em;
+}
+#as_releve_annuel_prestation_page .tableau td {
+	color: rgb(0, 0, 0); border-bottom-color: rgb(224, 240, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#as_releve_annuel_prestation_page .tableau td.image {
+	text-align: center;
+}
+#as_releve_annuel_prestation_page .tableau td.total {
+	text-align: right; font-weight: bold;
+}
+#as_releve_annuel_prestation_page .tab-body table {
+	margin: 0px;
+}
+.infoALD a.r_btretour {
+	color: rgb(168, 64, 127);
+}
+.infoALD .txt_milieu {
+	width: 670px; line-height: 1.5em; margin-top: 20px; float: left;
+}
+.tableau_adresse tr {
+	height: 28px;
+}
+.tableau_adresse td.label_adresse {
+	width: 150px;
+}
+.tableau_adresse input {
+	width: 100%;
+}
+.tableau_adresse select {
+	width: 100%;
+}
+.tableau_adresse .lieu_dit {
+	text-align: right;
+}
+.tableau_adresse input.c_lieu_dit {
+	width: 140px;
+}

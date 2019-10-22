@@ -1,0 +1,6 @@
+.wlp-bighorn-theme-borderless .wlp-bighorn-window {
+	border: 0px currentColor; border-image: none;
+}
+.wlp-bighorn-theme-borderless .wlp-bighorn-window-content {
+	background-color: transparent;
+}
